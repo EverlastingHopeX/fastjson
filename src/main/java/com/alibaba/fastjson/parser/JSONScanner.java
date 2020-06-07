@@ -3037,4 +3037,8 @@ public final class JSONScanner extends JSONLexerBase {
 
         return null;
     }
+    
+    public boolean checkTimeTest(char h0, char h1, char m0, char m1, char s0, char s1) {
+    	return checkTime(h0,h1,m0,m1,s0,s1);
+    }
 }

@@ -91,4 +91,12 @@ class JSONScannerTest2 {
 //		System.out.println(bd);
 	}
 
+	@Test
+	void testCheckTime() {
+		char h0='0',h1='0';
+		char m0='0',m1='0';
+		char s0='0', s1='0';
+		JSONScanner scanner=new JSONScanner("123");
+		assertEquals(true, scanner.checkTimeTest(h0, h1, m0, m1, s0, s1));
+	}
 }

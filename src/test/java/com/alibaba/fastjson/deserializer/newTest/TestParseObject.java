@@ -93,7 +93,6 @@ class TestParseObject {
 	void test8() {
 		fail("Not yet implemented");
 		String text="{'strPro':'str','intPro':1}";
-		ParserConfig config;
 		Feature f=Feature.AllowSingleQuotes;
 		JSON.parseObject(text,aSimClass.class,ParserConfig.global,f);	
 	}
