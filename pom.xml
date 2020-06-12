@@ -97,6 +97,7 @@
 					<encoding>UTF-8</encoding>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
+					<useSystemClassLoader>false</useSystemClassLoader>
 				</configuration>
 				<dependencies>
 					<dependency>
